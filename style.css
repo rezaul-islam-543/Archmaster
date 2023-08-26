@@ -1,0 +1,149 @@
+/*==================Typography=======================*/
+*{
+    font-family: 'Forum', cursive;
+    background-color: #000000;
+    padding: 0px;
+    margin: 0px;
+}
+/*====================NAV BAR========================*/
+.navbar a{
+    color: #E6DDCE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    margin-right: 20px;
+}
+.navbar a:hover{
+    color: #b3aa9b;
+}
+.navbar-toggler{
+    color: #E6DDCE;
+    background-color: transparent;
+    border:none;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+/*=====================Welcome Start============================*/
+.welcome{
+    padding: 0%;
+}
+.welcome h1{
+    color: white;
+    margin-top: 15%;
+    font-size: 6vw;
+}
+
+.cover-img h1{
+    color: white;
+    margin-top: 15%;
+    font-size: 6vw;
+}
+
+.para-section .container{
+    border-bottom: #E6DDCE;
+}
+.para-section p{
+    font-size: 17px;
+    color: #ffffff;
+    margin-top: 40px;
+    text-align: justify;
+}
+.btn-lg{
+    color: #ffffff;
+    border: 1px solid #E6DDCE;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px 60px;
+    border-radius: 0px;
+}
+.btn-lg:hover{
+    color: #b3aa9b;
+}
+
+/*====================================Service Section============================*/
+.service{
+    padding: 40px 0px;
+}
+.service .container{
+    border-top: .1px solid #E6DDCE;
+    border-bottom: .1px solid #E6DDCE;
+}
+.service p{
+    color: #E6DDCE;
+    font-size: 23px;
+    text-align: justify;
+}
+.service .container{
+    padding: 80px 0px;
+}
+.list-group-flush>.list-group-item{
+    border-color: #E6DDCE;
+    color: #E6DDCE;
+    background-color: transparent;
+    font-size: 2.5vw;
+}
+/*====================================Portfolio Section=================================*/
+.portfolio p{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 30px;
+    text-align: justify;
+}
+.card{
+    border: .1px solid #E6DDCE;
+    border-radius: 1px;
+    margin: 20px 0px;
+}
+.featured-img .container{
+    border-bottom: .1px solid #E6DDCE;
+}
+/*=======================================Contact Us=========================================*/
+.contact-section h1{
+    color: white;
+    font-size: 6vw;
+}
+/*.contact-section h1{
+    padding: 50px 20px;
+}*/
+.contact-section{
+    border-bottom: .1px solid #E6DDCE;
+}
+/*======================================Footer Section===================================*/
+.nav-link {
+    display: block;
+    color: #E6DDCE;
+    text-decoration: none;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.nav-link:hover{
+    color: #a89e8c;
+}
+.footer-section .container{
+    padding: 40px 20px;
+}
+.footer-section{
+    border-bottom: .1px solid #E6DDCE;
+}
+/*=======================================Copy Right==================================*/
+.copyright p{
+    color: #E6DDCE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+
+}
+.copyright .container{
+    padding: 30px 20px; 
+}
+@media (max-width: 550px){
+    .btn-lg {
+        color: #ffffff;
+        border: 1px solid #E6DDCE;
+        font-family: 'Montserrat', sans-serif;
+        padding: 10px 30px;
+        border-radius: 0px;
+    }
+}
